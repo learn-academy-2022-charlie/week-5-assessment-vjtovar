@@ -10,14 +10,14 @@ letter_o = 'o'
 letter_t = 't'
 # Expected output: ['tea', 'water', 'soda water']
 
-def wordLetter (array, string) 
+def words_with_letter (array, string) 
     array.select do |value| 
         value.include?(string)
     end
 end 
 
-p wordLetter(beverages_array, letter_o)
-p wordLetter(beverages_array, letter_t)
+p words_with_letter(beverages_array, letter_o)
+p words_with_letter(beverages_array, letter_t)
 
 # -------------------2) Create a method that takes in an array of numbers and returns the sum of the numbers. Use the test variables provided.
 
